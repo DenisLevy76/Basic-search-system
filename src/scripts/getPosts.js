@@ -11,5 +11,5 @@ export default async function getPosts() {
       return {...post, img: photosJSON[index].url}
     })
 
-    return postsAndPhotos
+    return postsAndPhotos;
 }

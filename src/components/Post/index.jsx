@@ -5,7 +5,7 @@ export function Post( {post} ) {
     <div className="post-container">
       <img src={post.img} alt={post.title}/>
       <div className="post-body">
-        <h2>{post.title}</h2>
+        <h2>{post.title} {post.id}</h2>
         <p>{post.body}</p>
       </div>
     </div>
