@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Post /> It should match snapshot 1`] = `
+<div>
+  <div
+    class="post-container"
+  >
+    <img
+      alt="Hello, world!"
+      src="https://github.com/DenisLevy76.png"
+    />
+    <div
+      class="post-body"
+    >
+      <h2>
+        Hello, world!
+         
+        1
+      </h2>
+      <p>
+        Todos os tipos de hello, world
+      </p>
+    </div>
+  </div>
+</div>
+`;
